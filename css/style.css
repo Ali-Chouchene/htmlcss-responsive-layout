@@ -66,6 +66,18 @@
 }
 
 /*MAIN*/
+section {
+    min-height: 700px;
+    margin: 3rem 0;
+    padding: 3rem;
+}
+
+section:nth-child(even) {
+    background-color: #9792e4;
+
+
+}
+
 #intro .card {
     background-color: #b5ddff;
     border-radius: 20px;
@@ -118,6 +130,69 @@
     color: #0084fd;
     margin-bottom: 30px;
     margin-top: 50px;
+}
+
+/*planning*/
+#planning .strategic {}
+
+.strategic h2 {
+    font-size: 30px;
+    color: white;
+}
+
+.strategic p {
+    font-size: 18px;
+    margin-top: 50px;
+    color: white;
+}
+
+.planning .strategic img {
+    width: calc(100vw / 1.5);
+    padding-bottom: 50px;
+
+}
+
+#planning .container.planning {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+
+}
+
+#planning .app-dev {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    /* width: 500px; */
+    min-height: 500px;
+    align-self: center;
+    text-align: center;
+    border-radius: 50px;
+    margin-top: 50px;
+    margin-bottom: 3rem;
+    padding: 2rem;
+
+
+}
+
+#planning .app-dev p {
+    /* margin-top: 0; */
+    color: black;
+}
+
+#planning .app-dev img {
+    width: 400px;
+}
+
+#planning .app-dev h3 {
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+
+#planning .app-dev i {
+    padding: 4%;
+    background-color: #9792e4;
+    margin-top: 50px;
+    border-radius: 50%;
 }
 
 /*RESPONSIVE*/
