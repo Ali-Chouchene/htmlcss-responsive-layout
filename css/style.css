@@ -68,7 +68,7 @@
 
 /*MAIN*/
 section {
-    min-height: 700px;
+    /* min-height: 700px; */
     margin: 3rem 0;
     padding: 3rem;
 }
@@ -358,6 +358,44 @@ section:nth-child(even) {
     font-size: 18px;
     border-radius: 20px;
     border: 0;
+}
+
+/*GET-STARTED*/
+#get-started>.promo {
+    text-align: center;
+}
+
+#get-started>.promo h3 {
+    font-weight: 100;
+    color: #bacedf;
+    margin-bottom: 1rem;
+}
+
+#get-started>.promo h2 {
+    font-size: 35px;
+    color: #fdfeff;
+    margin-bottom: 2rem;
+}
+
+#get-started>.promo h1 {
+    font-size: 50px;
+    color: #fdc15f;
+    margin-bottom: 1rem;
+}
+
+#get-started>.promo p {
+    color: #fdfeff;
+    margin-bottom: 2rem;
+}
+
+#get-started>.promo button {
+    cursor: pointer;
+    background-color: #ffffff;
+    color: #9792e4;
+    padding: 10px 30px;
+    font-size: 25px;
+    border-radius: 20px;
+    margin-bottom: 2rem;
 }
 
 /*RESPONSIVE*/
