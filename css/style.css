@@ -21,6 +21,7 @@
     position: sticky;
     top: 0;
     left: 0;
+    right: 0;
     z-index: 2;
     background-color: #0084fd;
     padding: 1rem 2rem;
@@ -147,7 +148,7 @@ section:nth-child(even) {
 }
 
 .planning .strategic img {
-    width: calc(100vw / 1.5);
+    width: calc(100vw / 2);
     padding-bottom: 50px;
 
 }
@@ -195,6 +196,66 @@ section:nth-child(even) {
     border-radius: 50%;
 }
 
+/*TESTIMONIALS*/
+#testimonials .customers {
+    text-align: center;
+}
+
+#testimonials .customers h3 {
+    font-weight: 100;
+    margin-bottom: 2rem;
+}
+
+#testimonials .customers h2 {
+    font-size: 30px;
+    color: #9792e4;
+    margin-bottom: 2rem;
+}
+
+#testimonials .customers p {
+    font-size: 20px;
+}
+
+/*USERS*/
+#testimonials .customers .user-pic {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: -50px;
+    margin-bottom: 2rem;
+
+
+
+}
+
+#testimonials .customers .user-pic.a {
+    background-image: url(../img/testimonial1.jpg);
+}
+
+#testimonials .customers .user-pic.b {
+    background-image: url(../img/testimonial2.jpg);
+}
+
+#testimonials .customers .user-pic.c {
+    background-image: url(../img/testimonial3.jpg);
+}
+
+.users {}
+
+.users .user-col {
+    padding: 2rem;
+    border: 2px dashed black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 3rem;
+    border-radius: 20px;
+    background-color: #9792e4;
+    text-align: center;
+    color: white;
+}
+
 /*RESPONSIVE*/
 
 @media screen and (min-width: 768px) {
@@ -217,6 +278,18 @@ section:nth-child(even) {
 
     #intro .col.large {
         flex-basis: calc(100% / 3 * 2);
+    }
+
+    .users .user-col {
+        flex-direction: row;
+        height: 250px;
+
+    }
+
+    #testimonials .customers .user-pic {
+        padding-right: 200px;
+        margin-top: 2rem;
+
     }
 }
 
